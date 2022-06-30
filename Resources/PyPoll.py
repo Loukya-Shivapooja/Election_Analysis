@@ -45,7 +45,7 @@ with open("Resources/election_results.csv") as election_data:
         votes = candidate_votes[candidate_name]
         vote_percentage = float(votes)/ float(total_votes) * 100
 # Print the candidate votes
-        print(f"{candidate_name}: received {vote_percentage:.1f}% of the {votes}")
+        print(f"{candidate_name}: received {vote_percentage:.1f}% of {votes:,}")
         if(votes > winning_count) and (vote_percentage > winning_percentage):
             winning_count = votes
             winning_percentage = vote_percentage
