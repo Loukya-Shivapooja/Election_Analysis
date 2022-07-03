@@ -33,5 +33,17 @@ The data to be collected are:
 * The percentage of votes from each county out of the total count.
 * The county with the highest turnout.
 ### Election Audit results
-#### Votes casted in the congressional election.
-
+#### 1. Votes casted in the congressional election.
+To determine the votes casted, first total votes are assigned to `zero` and is incremented.
+<img width="496" alt="Screen Shot 2022-07-03 at 2 52 46 PM" src="https://user-images.githubusercontent.com/107584361/177058480-a409b1a3-759e-4a55-842d-9a1906fdae28.png">
+#### 2. Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+A `for` loop is created to calculate the voters count in each county and the percentage of votes. 
+<img width="770" alt="Screen Shot 2022-07-03 at 3 05 37 PM" src="https://user-images.githubusercontent.com/107584361/177059069-df32a2fa-b194-4574-abeb-38da1dbac199.png">
+#### 3. County with the largest number of votes.
+To Determine the county with largest number of votes, an `if` statement is used by checking the votes and percentage of each county and votes with highest county is printed.
+<img width="762" alt="Screen Shot 2022-07-03 at 3 23 50 PM" src="https://user-images.githubusercontent.com/107584361/177059343-3b4623e6-5a19-4147-85d9-82859f1cbeb9.png">
+#### 4. Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+the image below shows the code for calculating the number of votes and percentage each candidate received.
+<img width="662" alt="Screen Shot 2022-07-03 at 3 41 43 PM" src="https://user-images.githubusercontent.com/107584361/177059829-731ccc2c-66eb-4164-a18b-0ebd84b574b0.png">
+#### 5. Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+`If` statement checks the condition highest votes and percentage of each candidate and prints candidate wi
