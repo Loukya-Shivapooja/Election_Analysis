@@ -47,7 +47,9 @@ the image below shows the code for calculating the number of votes and percentag
 <img width="662" alt="Screen Shot 2022-07-03 at 3 41 43 PM" src="https://user-images.githubusercontent.com/107584361/177059829-731ccc2c-66eb-4164-a18b-0ebd84b574b0.png">
 #### 5. Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 `If` statement checks the condition highest votes and percentage of each candidate and prints candidate with highest votes.
+
 <img width="670" alt="Screen Shot 2022-07-03 at 3 52 50 PM" src="https://user-images.githubusercontent.com/107584361/177063697-ed4dec70-ad22-4689-bb10-c754be30292a.png">
+
 ### Election Audit Summary:
 This script can be used for any kind of election. We may need to make some small changes to allow the code to work with different data, but that should not be a problem.
 * The first example of a different kind of election would be a very simple school election for choosing the student body president. This script can be modified by changing the county votes to student grade levels instead.
