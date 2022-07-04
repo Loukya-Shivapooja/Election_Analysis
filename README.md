@@ -14,7 +14,7 @@ A Colorado Board of Elections employee has given the following tasks to complete
 * software : Python 3.6.1, Visual Studio Code 1.38.1.
 ## Summary
 The analysis of the election show that:
-* There were "369,711" votes cast in the election.
+* There were **369,711** votes cast in the election.
 * The candidates were:
   * Candidate 1: Charles Casper Stockham
   * Candidate 2: Diana DeGette
@@ -24,7 +24,7 @@ The analysis of the election show that:
   * Candidate 2: Diana DeGette received 73.8% of the vote and 272,892 number of the votes.
   * Candidate 3: Raymon Anthony Doane received 3.1% of the vote and 11,606 number of the votes.
 * The winner of the election was:
-  * Candidate 2: Diana DeGette who received 73.8% of the vote and 272,892 number of the votes.
+  * Candidate 2: **Diana DeGette** who received **73.8%** of the vote and 272,892 number of the votes.
 ## Overview of Election Audit:
 ### Purpose:
 The purpose of this analysis is to collect additional data from the CSV file and submit to the election commission to complete the audit.
@@ -34,7 +34,7 @@ The data to be collected are:
 * The county with the highest turnout.
 ### Election Audit results
 #### 1. Votes casted in the congressional election.
-To determine the votes casted, first total votes are assigned to `zero` and is incremented.
+To determine the votes casted, first total votes are assigned to `zero` and is incremented using a **for** loop.
 <img width="496" alt="Screen Shot 2022-07-03 at 2 52 46 PM" src="https://user-images.githubusercontent.com/107584361/177058480-a409b1a3-759e-4a55-842d-9a1906fdae28.png">
 #### 2. Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 A `for` loop is created to calculate the voters count in each county and the percentage of votes. 
@@ -46,4 +46,9 @@ To Determine the county with largest number of votes, an `if` statement is used 
 the image below shows the code for calculating the number of votes and percentage each candidate received.
 <img width="662" alt="Screen Shot 2022-07-03 at 3 41 43 PM" src="https://user-images.githubusercontent.com/107584361/177059829-731ccc2c-66eb-4164-a18b-0ebd84b574b0.png">
 #### 5. Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-`If` statement checks the condition highest votes and percentage of each candidate and prints candidate wi
+`If` statement checks the condition highest votes and percentage of each candidate and prints candidate with highest votes.
+<img width="670" alt="Screen Shot 2022-07-03 at 3 52 50 PM" src="https://user-images.githubusercontent.com/107584361/177063697-ed4dec70-ad22-4689-bb10-c754be30292a.png">
+### Election Audit Summary:
+This script can be used for any kind of election. We may need to make some small changes to allow the code to work with different data, but that should not be a problem.
+* The first example of a different kind of election would be a very simple school election for choosing the student body president. This script can be modified by changing the county votes to student grade levels instead.
+* The second example would be a nationwide presidential election. We could either change county to be state instead or we could add state in addition to county so we would have more detail.
