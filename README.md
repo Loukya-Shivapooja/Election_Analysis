@@ -75,7 +75,14 @@ The image below shows the code for calculating the number of votes and percentag
 
 <img width="670" alt="Screen Shot 2022-07-03 at 3 52 50 PM" src="https://user-images.githubusercontent.com/107584361/177063697-ed4dec70-ad22-4689-bb10-c754be30292a.png">
 
+We need to save the election results to a text file and then print the file to the screen to make sure that the results are in the correct format.
+
+After the election analysis is written to the text file, the file should look like this:
+
+<img width="484" alt="Screen Shot 2022-07-04 at 2 33 22 PM" src="https://user-images.githubusercontent.com/107584361/177218451-cee1c7b5-f925-4b0a-8572-4cdaf3af35af.png">
+
 ### Election Audit Summary:
+
 This script can be used for any kind of election. We may need to make some small changes to allow the code to work with different data, but that should not be a problem.
 * The first example of a different kind of election would be a very simple school election for choosing the student body president. This script can be modified by changing the county votes to student grade levels instead.
 * The second example would be a nationwide presidential election. We could either change county to be state instead or we could add state in addition to county so we would have more detail.
